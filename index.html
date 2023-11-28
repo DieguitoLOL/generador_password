@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contraseñas aleatorias</title>
+</head>
+<body>
+    <main>
+        <h1>Generador de contraseñas</h1>
+        <div class="selectores">
+            <p>Parametros:</p>
+            <label><input class="datos" type="checkbox" id="mayusculas"> Mayúsculas</label>
+            <label><input class="datos" type="checkbox" id="minusculas"> Minúsculas</label>
+            <label><input class="datos" type="checkbox" id="numeros"> Números</label>
+            <label><input class="datos" type="checkbox" id="caracteres"> Caracteres especiales</label>
+        </div>
+        <div class="resultado">
+            <img src="descarga.svg" alt="reinicio" class="repetir" id="repetir">
+            <button id="boton_generador">Generar contraseña</button>
+            <input class="contraseña" type="text" name="contraseña" id="contraseña" readonly>
+        </div>
+    </main>
+    
+</body>
+<script src="main.js"></script>
+</html>
